@@ -83,6 +83,12 @@ header {
     }
 }
 
+@media only screen and (max-width: 375px {
+    .input-group {
+      flex-wrap: inherit;
+    }
+}
+
 @media only screen and (max-width: 1168px) {
     header {
         display: none;
