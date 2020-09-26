@@ -62,73 +62,6 @@ header {
     display: none;
 }
 
-@media only screen and (max-width: 768px) {
-
-    .form-select-size {
-        width: 75%;
-    }
-
-    .form-select-qty {
-        width: 25%;
-    }
-
-
-    .product-details {
-        padding-left: 0 !important;
-    }
-
-    .product-name {
-        font-size: 20px !important;
-        line-height: 25px;
-    }
-}
-
-@media only screen and (max-width: 415px) {
-    .main {
-      padding-top: 6rem;
-    }
-    .input-group {
-      flex-wrap: inherit;
-    }
-    .upsell-items {
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
-    }
-}
-
-@media only screen and (max-width: 1168px) {
-    header {
-        display: none;
-    }
-    .header-mobile {
-        display: block;
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-areas:
-                "left . . . . right";
-        height: 4rem;
-
-    }
-    .left {
-        grid-area: left;
-        color: white;
-        padding-top: 1rem;
-    }
-    .right {
-        grid-area: right;
-        color: white;
-    }
-    .product-category {
-        padding-top: 1rem;
-    }
-
-    .newsletter-input {
-        width: 100% !important;
-    }
-}
-
-
-
-
 .main {
     color: black;
     padding-top: 11rem;
@@ -722,3 +655,69 @@ footer {
     opacity: 1;
     visibility: visible;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .form-select-size {
+        width: 75%;
+    }
+
+    .form-select-qty {
+        width: 25%;
+    }
+
+
+    .product-details {
+        padding-left: 0 !important;
+    }
+
+    .product-name {
+        font-size: 20px !important;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .main {
+      padding-top: 6rem !important;
+    }
+    .input-group {
+      flex-wrap: inherit;
+    }
+    .upsell-items {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
+    }
+}
+
+@media only screen and (max-width: 1168px) {
+    header {
+        display: none;
+    }
+    .header-mobile {
+        display: block;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-areas:
+                "left . . . . right";
+        height: 4rem;
+
+    }
+    .left {
+        grid-area: left;
+        color: white;
+        padding-top: 1rem;
+    }
+    .right {
+        grid-area: right;
+        color: white;
+    }
+    .product-category {
+        padding-top: 1rem;
+    }
+
+    .newsletter-input {
+        width: 100% !important;
+    }
+}
+
+
