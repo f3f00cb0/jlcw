@@ -87,6 +87,9 @@ header {
     .input-group {
       flex-wrap: inherit;
     }
+    .upsell-items {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
 }
 
 @media only screen and (max-width: 1168px) {
